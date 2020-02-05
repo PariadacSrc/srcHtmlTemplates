@@ -1,0 +1,126 @@
+.banner-area-about {
+  background: url(../img/about_us_background_opacity.jpg) center;
+  background-size: cover;
+}
+.exibition-area {
+  background-color: #e5e5eec7!important;
+}
+.section-gap {
+  padding: 50px 0!important;
+}
+.img-redonda{
+  border-radius: 50%;
+}
+
+/*carousel*/
+
+.carousel-element{
+  display: block;
+  overflow: hidden;
+}
+.carousel-element > div.row > div > img {
+  width: 100%;
+  margin: auto;
+}
+.carousel-element > div.row{
+  margin: 0px;
+}
+
+.carousel-element h2 {
+  margin-bottom: .8em;
+  font-weight: normal;
+}
+
+.about-carousel{
+  width: 100%;
+  margin: 1.2em 0px;
+}
+
+.div-partners-1{
+  text-align: center;
+}
+
+.div-partners-2{
+  text-align: left;
+}
+
+.div-partners-3{
+  text-align: right;
+}
+
+@media only screen and (max-width:576px){
+  .div-partners-2 div-partners-3 {
+    text-align: center;
+  } 
+} 
+.img-partners{
+    margin-top: 0px!important;
+}
+
+@media only screen and (min-width:350px) and (max-width:576px){
+  .img-partners{
+    margin-top: 20px!important;
+  } 
+} 
+
+/* Divisor horizontal*/
+.case-hr{
+  border-color: rgb(146, 184, 69)!important;
+  width:100%!important; 
+  }
+
+/* inicio responsive area why tecbound*/
+.show {
+  display:none!important;
+}
+
+  @media only screen and (max-width:992px){
+    .show{
+      display:block!important;
+    } 
+} 
+
+.show-2 {
+  display:none!important;
+}
+@media only screen and (min-width:993px) and (max-width:1900px){
+    .show-2{
+      display:block!important;
+    } 
+} 
+.img-margen{
+  margin-top:0px;
+}
+@media only screen and (min-width:960px) and (max-width:994px){
+  .img-margen{
+    margin-top:20px!important;
+  } 
+} 
+
+.img-margen-interno{
+  padding:0px;
+}
+@media only screen and (max-width:992px){
+  .img-margen-interno{
+    padding-right: 15px;
+    padding-left: 15px;
+  } 
+} 
+
+.texto-margen{
+  margin-right:20px!important;
+}
+
+@media only screen and (max-width:992px){
+  .texto-margen{
+    margin-right:0px!important;
+    padding-right: 15px;
+    padding-left: 15px;
+  } 
+} 
+
+/* Fin responsive area why tecbound*/
+
+/*carousel media query*/
+
+

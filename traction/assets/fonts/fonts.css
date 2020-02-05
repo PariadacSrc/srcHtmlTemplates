@@ -1,0 +1,47 @@
+@import url("style.css");
+@font-face {
+	font-family: "Myriad-Pro-Bold";
+	src: url("Myriad-Pro-Bold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+	font-family: "Myriad-Pro-Light";
+	src: url("Myriad-Pro-Light.otf") format("truetype");
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+	font-family: "Myriad-Pro";
+	src: url("Myriad-Pro.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+	font-family: "Segoe-Print";
+	src: url("Segoe-Print.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("Roboto-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal; 
+}
+
+@font-face {
+  font-family: 'arialbold';
+  src: url("../fonts/ariallbold-webfont.eot");
+  src: url("../fonts/ariallbold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ariallbold-webfont.woff2") format("woff2"), url("../fonts/ariallbold-webfont.woff") format("woff"), url("../fonts/ariallbold-webfont.ttf") format("truetype"), url("../fonts/ariallbold-webfont.svg#square721_bdex_btbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tlcsas";
+  src: url("../fonts/tlcsas.eot");
+  src: url("../fonts/tlcsas.eot?#iefix") format("embedded-opentype"), url("../fonts/tlcsas.woff") format("woff"), url("../fonts/tlcsas.ttf") format("truetype"), url("../fonts/tlcsas.svg#tlcsas") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

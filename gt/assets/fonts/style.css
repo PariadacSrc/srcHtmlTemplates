@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'icon-pack-1';
+  src:  url('fonts/icon-pack-1.eot?fmddug');
+  src:  url('fonts/icon-pack-1.eot?fmddug#iefix') format('embedded-opentype'),
+    url('fonts/icon-pack-1.ttf?fmddug') format('truetype'),
+    url('fonts/icon-pack-1.woff?fmddug') format('woff'),
+    url('fonts/icon-pack-1.svg?fmddug#icon-pack-1') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-pack-1"], [class*=" icon-pack-1"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-pack-1' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pack-1font-calendar:before {
+  content: "\e900";
+}
+.icon-pack-1font-clock:before {
+  content: "\e901";
+}
+.icon-pack-1font-eye:before {
+  content: "\e902";
+}
+.icon-pack-1font-gift:before {
+  content: "\e903";
+}
+.icon-pack-1font-info:before {
+  content: "\e904";
+}
+.icon-pack-1font-lvl:before {
+  content: "\e905";
+}
+.icon-pack-1font-malet:before {
+  content: "\e906";
+}
+.icon-pack-1font-page:before {
+  content: "\e907";
+}
+.icon-pack-1font-plus:before {
+  content: "\e908";
+}
+.icon-pack-1font-position:before {
+  content: "\e909";
+}
+.icon-pack-1font-red:before {
+  content: "\e90a";
+}
+.icon-pack-1font-ticket:before {
+  content: "\e90b";
+}
+.icon-pack-1minus:before {
+  content: "\ea0b";
+}
+.icon-pack-1checkmark:before {
+  content: "\ea10";
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1200px" height="68.7px" viewBox="0 0 1200 68.7" enable-background="new 0 0 1200 68.7" xml:space="preserve">
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="-0.284" y="0" transform="matrix(1 -0.002 0.002 1 -0.066 1.1741)" width="1201.004" height="68.699"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<polygon clip-path="url(#SVGID_2_)" fill="#EC652A" points="1200.776,67.498 -0.183,69.857 1200.642,-1.174 		"/>
+		<polygon clip-path="url(#SVGID_2_)" fill="#E73B33" points="1200.682,13.849 1200.768,67.52 -0.211,69.857 		"/>
+		<polygon clip-path="url(#SVGID_2_)" fill="#009C3D" points="341.147,4.998 1200.768,67.507 -0.183,69.856 -0.264,33.803 		"/>
+		<polygon clip-path="url(#SVGID_2_)" fill="#7CB928" points="1200.687,26.084 1200.768,67.508 -0.21,69.857 		"/>
+		<g opacity="0.16" clip-path="url(#SVGID_2_)">
+			<g>
+				<defs>
+					
+						<rect id="SVGID_3_" x="-0.262" y="22.429" transform="matrix(1 -0.002 0.002 1 -0.088 1.1741)" width="1200.984" height="46.25"/>
+				</defs>
+				<clipPath id="SVGID_4_">
+					<use xlink:href="#SVGID_3_"  overflow="visible"/>
+				</clipPath>
+				<polygon clip-path="url(#SVGID_4_)" fill="#4D4D4D" points="369.949,22.875 1200.768,67.508 -0.211,69.857 				"/>
+			</g>
+		</g>
+		<polygon clip-path="url(#SVGID_2_)" fill="#0072B6" points="-0.249,36.694 -0.183,69.857 1021.836,67.858 371.747,22.871 		"/>
+		<polygon clip-path="url(#SVGID_2_)" fill="#44AFE4" points="1021.835,67.858 371.747,22.871 213.387,28.756 		"/>
+	</g>
+</g>
+</svg>

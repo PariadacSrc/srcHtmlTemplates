@@ -1,0 +1,91 @@
+/* Background Slider */
+.background-slider{
+	background-color: #f1f1f1;
+	padding-bottom: 50pt;
+}
+/* Titulo del Slider */
+.title{
+	font-family: Raleway-Black;
+	color: #92b845;
+	font-size: 20pt;
+	text-align: center;
+}
+/* Subtitulo*/
+.subtitle{
+	font-family: Raleway;
+	font-size: 10pt;
+	text-align: center;
+}
+
+/* Fuente de testimonio */
+
+.testimonials{
+	font-family: Raleway;
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.left-space{
+	padding-left: 80pt;
+	padding-right: 80pt;
+}
+.padding-author{
+	padding-left: 117pt;
+}
+.author{
+	font-size: 12pt;
+	font-weight: bold;
+}
+/* Color estrellas */
+.tecbound-star-full{
+	color: #92b845;
+}
+
+@media only screen and  (max-width: 576px){
+	.blog-tip .post-item:before{
+		content: "";
+		background-color: rgb(146, 184, 69);
+		height: 2px;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.blog-tip .last-item:before{
+		content: "";
+		background-color: rgb(146, 184, 69);
+		height: 2px;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+
+/*Oculta post relacionados*/
+.related-post{
+	display: none;
+}
+/*Oculta post relacionados*/
+
+.two-columns{
+	display: none;
+}
+
+@media only screen and (min-width: 992px){
+		.single-post-cont h4, .single-post-cont p {
+    padding: 0px 5rem;
+}	
+}
+
+.center-text{
+	text-align: center;
+}
+.zero-space{
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+}

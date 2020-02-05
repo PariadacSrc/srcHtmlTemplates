@@ -1,0 +1,31 @@
+@import url("style.css");
+@font-face {
+	font-family: "Myriad-Pro-Bold";
+	src: url("Myriad-Pro-Bold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+	font-family: "Myriad-Pro-Light";
+	src: url("Myriad-Pro-Light.otf") format("truetype");
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+	font-family: "Myriad-Pro";
+	src: url("Myriad-Pro.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+	font-family: "Segoe-Print";
+	src: url("Segoe-Print.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("Roboto-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal; 
+}

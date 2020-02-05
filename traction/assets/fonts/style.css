@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'trucks-';
+  src:  url('fonts/trucks-.eot?8jnm56');
+  src:  url('fonts/trucks-.eot?8jnm56#iefix') format('embedded-opentype'),
+    url('fonts/trucks-.ttf?8jnm56') format('truetype'),
+    url('fonts/trucks-.woff?8jnm56') format('woff'),
+    url('fonts/trucks-.svg?8jnm56#trucks-') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="trucks-"], [class*=" trucks-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'trucks-' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.trucks-award:before {
+  content: "\e900";
+}
+.trucks-chevron-down:before {
+  content: "\e903";
+}
+.trucks-chevron-left:before {
+  content: "\e912";
+}
+.trucks-chevron-right:before {
+  content: "\e913";
+}
+.trucks-dollar-sign:before {
+  content: "\e901";
+}
+.trucks-eye:before {
+  content: "\e905";
+}
+.trucks-map:before {
+  content: "\e909";
+}
+.trucks-map-pin:before {
+  content: "\e90a";
+}
+.trucks-menu:before {
+  content: "\e90c";
+}
+.trucks-minus:before {
+  content: "\e914";
+}
+.trucks-phone:before {
+  content: "\e910";
+}
+.trucks-plus:before {
+  content: "\e915";
+}
+.trucks-printer:before {
+  content: "\e904";
+}
+.trucks-truck:before {
+  content: "\e902";
+}
+.trucks-watch:before {
+  content: "\e906";
+}
+.trucks-cross:before {
+  content: "\e911";
+}
+.trucks-pencil:before {
+  content: "\e90b";
+}
+.trucks-star-full:before {
+  content: "\e9d9";
+}
+.trucks-facebook:before {
+  content: "\ea90";
+}
+.trucks-instagram:before {
+  content: "\ea92";
+}
+.trucks-twitter:before {
+  content: "\ea96";
+}
+.trucks-linkedin2:before {
+  content: "\eaca";
+}

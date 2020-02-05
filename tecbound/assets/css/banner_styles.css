@@ -1,0 +1,490 @@
+@import 'fonts.css';
+
+/*ESTILOS GENERALES*/
+
+.contact-page-area .map-wrap{
+  margin: 0px!important;
+}
+
+.showinline{
+  display: table;
+  width: 100%;
+  margin: 0px;
+}
+
+.showinline>div{
+  display: table-cell!important;
+  vertical-align: middle;
+}
+
+.showinline>div.col-lg-4{
+  width: 33.33%;
+}
+
+.showinline>div.col-lg-8{
+  width: 66.66%;
+  padding: 0px;
+}
+
+
+.general-banner>div.container, .general-banner>div.container>div.fullscreen{
+  height: 100%!important;
+}
+
+.general-banner>div.container>div.fullscreen{
+  display: table!important;
+}
+
+.general-banner>div.container>div.fullscreen>div.banner-content{
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: 0;
+}
+
+.general-banner>div.container>div.fullscreen>div.banner-content>div{
+  width: 45%;
+}
+
+/*Inicio Contact */
+
+.contact-padding-top{
+  padding-top:3rem;
+}
+
+.icon-contact{
+  font-size: 16pt !important;
+  color: rgb(146, 184, 69);
+  margin-right: 1em;
+  line-height: 0.9;  
+}
+
+.icon-contact2{
+  display: none;
+  font-size: 30pt;
+  color:  rgb(146, 184, 69);
+}
+
+.contact-top{
+  margin-top:0px;
+}
+
+.contact-details h5 {
+  font-family: Raleway!important;
+  font-size: 11pt!important;
+  font-style: normal!important;
+  text-transform: initial;
+  color: black;
+}
+
+.contact-details hr {
+  display:none;
+}
+
+.contact-title hr{
+  border-color: rgb(146, 184, 69)!important;
+}
+
+.map-wrap{
+    width: 100%!important;
+    height: 16rem!important;
+    overflow: hidden!important;
+}
+
+/*Start one title*/
+.One-title h1 {
+  
+  font-family: Raleway-Black!important;
+  font-size: 60pt!important;
+  font-style: normal!important;
+  line-height:  1.2 !important;
+  text-transform: uppercase;
+  margin-top: 235px;
+}
+.One-title p {
+  
+  font-family: Raleway!important;
+  font-size: 12pt!important;
+  font-style: normal!important;
+  text-transform: initial;
+  line-height: 1.5em !important;
+  text-align: justify;
+  margin-right: 11em;
+  padding-top: 1em;
+  margin-bottom: 1.5em;
+}
+/*End one title*/
+/*fin contact*/
+
+
+/*Start one title*/
+
+.One-title-large h1 {
+  
+  font-family: Raleway-Black!important;
+  font-size: 60pt!important;
+  font-style: normal!important;
+  line-height:  1.2 !important;
+  text-transform: uppercase;
+  margin-top: 350px;
+}
+.One-title-large p {
+  
+  font-family: Raleway!important;
+  font-size: 12pt!important;
+  font-style: normal!important;
+  text-transform: initial;
+  line-height: 1.5em !important;
+  text-align: justify;
+  margin-right: 11em;
+  padding-top: 1em;
+  margin-bottom: 1.5em;
+}
+/*End one title*/
+/*fin contact*/
+
+
+
+/*media query contact us mobile*/
+
+
+@media only screen and (max-width:350px){
+	.One-title h1{
+		margin-top: 2rem;
+	}
+}
+
+@media only screen and (max-width:404px){
+
+  .general-banner>div.container>div.fullscreen>div.banner-content>div {
+    width: auto; 
+ }
+ .contact-padding-top{
+   padding-top:20px;
+ }
+ 
+ .One-title h1 {
+   font-size: 40pt!important;
+   text-align: center!important;
+ }
+ .One-title p {
+   font-size: 11pt!important;
+   margin-right: 1.5em;
+   margin-left: 1.5em;
+   margin-top: 1em;
+   margin-bottom: 2.5em;
+ }
+
+ .map-wrap{
+   display:none;
+ }
+
+ .contact-top{
+   margin-top:50px;
+ }
+
+ .icon-contact{
+   font-size: 30pt;
+   margin-left: 3.4em;
+ }
+ 
+ .icon-contact2{
+   display: block;
+   margin-top: 3em;
+   margin-left: -4.8em;
+   margin-bottom: .8em;
+ }
+
+ .icon-contact2 hr{
+   width: 60%!important;
+   position: absolute;
+   left: 1.8em;
+ }
+
+ .icon-contact2 i{
+   color: rgb(146, 184, 69);
+   font-size: 20pt;
+   margin-right: 0.4em;
+   left: 4em;
+   top: 2.7em;
+ }
+
+ .icon-contact2 span{
+   font-size: 20pt;
+   color: rgb(146, 184, 69);
+   font-family: Raleway;
+   font-weight: 600;
+ }
+ 
+ .contact-details h5 {
+   margin-top: 59px!important;
+   margin-left: -137px!important;
+   font-size: 12pt!important;
+   text-align: center!important;
+ }
+
+ .contact-details hr{
+   width: 60%!important;
+   position: absolute;
+   left: 5.1em;
+   display: block;
+ }
+
+
+ /**/
+
+ .general-banner>div.container>div.fullscreen>div.banner-content>div {
+    width: auto; 
+ }
+  
+ .One-title-large h1 {
+   font-size: 40pt!important;
+   text-align: center!important;
+ }
+ .One-title-large p {
+   font-size: 10pt!important;
+   margin-right: 1.5em;
+   margin-left: 1.5em;
+   margin-top: 1em;
+   margin-bottom: 2.5em;
+ }
+ 
+
+} 
+
+
+@media only screen and   (min-width:405px) and (max-width:576px){
+
+  .general-banner>div.container>div.fullscreen>div.banner-content>div {
+     width: auto; 
+  }
+  .contact-padding-top{
+    padding-top:20px;
+  }
+  
+  .One-title h1 {
+    font-size: 40pt!important; /* Cambio a 60 pt titulo doble linea */
+    text-align: center;
+  }
+  .One-title p {
+    font-size: 10pt!important;
+    margin-right: 2.5em;
+    margin-left: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+  }
+
+  .map-wrap{
+    display:none;
+  }
+
+  .contact-top{
+    margin-top:50px;
+  }
+
+  .icon-contact{
+    font-size: 30pt;
+    margin-left: 4.4em;
+  }
+  
+  .icon-contact2{
+    display: block;
+    margin-top: 3em;
+    margin-left: -4.5em;
+    margin-bottom: .8em;
+  }
+
+  .icon-contact2 hr{
+    width: 60%!important;
+    position: absolute;
+    left: 2.2em;
+  }
+
+  .icon-contact2 i{
+    color: rgb(146, 184, 69);
+    font-size: 20pt;
+    margin-right: 0.4em;
+    left: 4em;
+    top: 2.7em;
+  }
+
+  .icon-contact2 span{
+    font-size: 20pt;
+    color: rgb(146, 184, 69);
+    font-family: Raleway;
+    font-weight: 600;
+  }
+  
+  .contact-details h5 {
+    margin-top: 59px!important;
+    margin-left: -143px!important;
+    font-size: 12pt!important;
+    text-align: center!important;
+  }
+
+  .contact-details hr{
+    width: 60%!important;
+    position: absolute;
+    left: 6em;
+    display: block;
+  }
+
+  .general-banner>div.container>div.fullscreen>div.banner-content>div {
+     width: auto; 
+  }
+    
+  .One-title-large h1 {
+    font-size: 40pt!important;
+    text-align: center;
+    margin-top: 250px
+  }
+  .One-title-large p {
+    font-size: 10pt!important;
+    margin-right: 2.5em;
+    margin-left: 2.5em;
+    margin-top: 0em!important;
+    margin-bottom: 2.5em;
+  }
+}
+/*media query contact us mobile*/
+/*start tablet*/
+@media only screen and   (min-width:577px) and (max-width:767px){
+
+  .general-banner>div.container>div.fullscreen>div.banner-content>div {
+    width: 60%; 
+  }
+  .contact-top{
+  margin-top:0px;
+  }
+  .One-title h1 {
+   font-size: 40pt!important;
+   margin-top: 235px;
+  }
+  .One-title p {
+  margin-right: 0em;
+  font-size:10px!important;
+  }
+  .icon-contact {
+    margin-left: 1.7em;
+  }
+
+  .general-banner>div.container>div.fullscreen>div.banner-content>div {
+    width: 60%; 
+  }
+  
+  .One-title-large h1 {
+   font-size: 50pt!important;
+   margin-top: 350px;
+  }
+  .One-title-large p {
+  margin-right: 0em;
+  font-size:15px!important;
+  }
+}  
+
+@media only screen and   (min-width:768px) and (max-width:991px){
+  .general-banner>div.container>div.fullscreen>div.banner-content>div {
+    width: 60%; 
+  }
+
+  .contact-top{
+    margin-top:0px;
+  }
+ 
+  .One-title h1 {
+    font-size: 60pt!important;
+  }
+
+  .One-title p {
+    margin-right: 1em;
+  }
+  .icon-contact {
+    margin-left: 1.7em;
+  }
+  .general-banner>div.container>div.fullscreen>div.banner-content>div {
+    width: 60%; 
+  }
+  
+  .One-title-large h1 {
+    font-size: 50pt!important;
+    margin-top: 350px!important;
+  }
+
+  .One-title-large p {
+    margin-right: 1em;
+    font-size: 11pt!important
+  }
+}
+/* end tablet*/
+/*Start desktop*/
+@media only screen and   (min-width:992px) and (max-width:1200px){
+  .general-banner>div.container>div.fullscreen>div.banner-content>div {
+    width: 48%; 
+  }
+
+  .contact-top{
+    margin-top:0px;
+  }
+ 
+  .One-title h1 {
+    font-size: 60pt!important;
+    margin-top: 158px;
+  }
+
+  .One-title p {
+    margin-right: 1em;
+  }
+  .icon-contact {
+    margin-left: 1.7em;
+  }
+  .general-banner>div.container>div.fullscreen>div.banner-content>div {
+    width: 48%; 
+  }
+ 
+  .One-title-large h1 {
+    font-size: 60pt!important;
+    margin-top: 350px;
+  }
+
+  .One-title-large p {
+    margin-right: 1em;
+    font-size: 11pt!important;
+  }
+}
+
+@media only screen and   (min-width:1201px) and (max-width:1600px){
+  .general-banner>div.container>div.fullscreen>div.banner-content>div {
+    width: 48%; 
+  }
+
+  .contact-top{
+    margin-top:0px;
+  }
+ 
+  .One-title h1 {
+    font-size: 60pt!important;
+    margin-top: 158px;
+  }
+
+  .One-title p {
+    margin-right: 1em;
+  }
+
+  .general-banner>div.container>div.fullscreen>div.banner-content>div {
+    width: 60%; 
+  }
+  
+  .One-title-large h1 {
+    font-size: 60pt!important;
+    margin-top: 50px;
+  }
+
+  .One-title-large p {
+    margin-right: 0em;
+  }
+
+}
+/*End desktop*/
+
+
+

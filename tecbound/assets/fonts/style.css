@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'tecbound-';
+  src:  url('fonts/tecbound-.eot?oq1tm');
+  src:  url('fonts/tecbound-.eot?oq1tm#iefix') format('embedded-opentype'),
+    url('fonts/tecbound-.ttf?oq1tm') format('truetype'),
+    url('fonts/tecbound-.woff?oq1tm') format('woff'),
+    url('fonts/tecbound-.svg?oq1tm#tecbound-') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="tecbound-"], [class*=" tecbound-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tecbound-' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tecbound-chevron-down:before {
+  content: "\e903";
+}
+.tecbound-chevron-left:before {
+  content: "\e912";
+}
+.tecbound-chevron-right:before {
+  content: "\e913";
+}
+.tecbound-mail:before {
+  content: "\e909";
+}
+.tecbound-map-pin:before {
+  content: "\e90a";
+}
+.tecbound-menu:before {
+  content: "\e90c";
+}
+.tecbound-phone:before {
+  content: "\e910";
+}
+.tecbound-cross:before {
+  content: "\e911";
+}
+.tecbound-anotherhardrive:before {
+  content: "\e900";
+}
+.tecbound-check:before {
+  content: "\e901";
+}
+.tecbound-checklist:before {
+  content: "\e902";
+}
+.tecbound-cicle:before {
+  content: "\e904";
+}
+.tecbound-cloud:before {
+  content: "\e905";
+}
+.tecbound-coolarrow:before {
+  content: "\e906";
+}
+.tecbound-hardrive:before {
+  content: "\e907";
+}
+.tecbound-lock:before {
+  content: "\e908";
+}
+.tecbound-pencil:before {
+  content: "\e90b";
+}
+.tecbound-poitarrow:before {
+  content: "\e90d";
+}
+.tecbound-screen:before {
+  content: "\e90e";
+}
+.tecbound-splat:before {
+  content: "\e90f";
+}
+.tecbound-star-full:before {
+  content: "\e9d9";
+}
+.tecbound-facebook:before {
+  content: "\ea90";
+}
+.tecbound-instagram:before {
+  content: "\ea92";
+}
+.tecbound-twitter:before {
+  content: "\ea96";
+}
+.tecbound-linkedin2:before {
+  content: "\eaca";
+}
